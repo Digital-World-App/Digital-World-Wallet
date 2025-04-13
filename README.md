@@ -7,22 +7,43 @@
 ## 🚀 Visão Geral
 
 A **Mundo Digital Wallet** foi concebida para oferecer:
-- Suporte a múltiplos tokens e ativos digitais.
-- Integração com plataformas DeFi e contratos inteligentes.
-- Facilidade de uso para iniciantes e robustez para usuários avançados.
+- Suporte a múltiplos tokens e ativos digitais.  
+- Integração com plataformas DeFi e contratos inteligentes.  
+- Facilidade de uso para iniciantes e robustez para usuários avançados.  
 - Código aberto para máxima transparência e auditabilidade.
 
 ---
 
 ## 📌 Funcionalidades Principais
 
-- Carteira não custodial (chaves privadas 100% do usuário)
-- Suporte a tokens ERC-20 e BEP-20
-- Compatível com NFTs (ERC-721 / ERC-1155)
-- Login com carteira descentralizada
-- Envio e recebimento de criptomoedas
-- Interface leve e intuitiva
-- Integração futura com o token $ASPPBR da ASPPIBRA-DAO
+- Carteira não custodial (chaves privadas 100% do usuário)  
+- Suporte a tokens ERC-20 e BEP-20  
+- Compatível com NFTs (ERC-721 / ERC-1155)  
+- Login com carteira descentralizada  
+- Envio e recebimento de criptomoedas  
+- Interface leve e intuitiva  
+- Integração futura com o token $ASPPBR da ASPPIBRA-DAO  
+
+---
+
+## 🧰 Tecnologias Sugeridas (para votação)
+
+A seguir, apresentamos diferentes pilhas tecnológicas para o desenvolvimento da wallet mobile, pensando na integração com o seu aplicativo web. Cada conjunto vem acompanhado de uma breve descrição e nota (1–10) para orientar a votação da comunidade.
+
+| Conjunto                                    | Descrição                                                                                                                                                                                                                               | Nota |
+|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| **React Native + ethers.js + WalletConnect**| • **React Native**: framework JavaScript/TypeScript para apps iOS/Android.<br>• **ethers.js**: biblioteca leve para interagir com Ethereum e EVMs.<br>• **WalletConnect**: protocolo para conectar dApps via QR/deep link.              | 9.0  |
+| **Flutter + web3dart + WalletConnect + Firebase**| • **Flutter**: SDK Google em Dart, UI nativa de alta performance.<br>• **web3dart**: cliente Ethereum para Dart.<br>• **WalletConnect**: bridge para dApps.<br>• **Firebase**: backend para auth, notificações e analytics.         | 8.5  |
+| **Native Android (Kotlin) + web3j + WalletConnect + Jetpack Compose**| • **Kotlin**: linguagem oficial Android.<br>• **web3j**: biblioteca Java para Ethereum.<br>• **WalletConnect**: integração dApp.<br>• **Jetpack Compose**: UI declarativa moderna Android.                                    | 8.0  |
+| **Native iOS (Swift) + web3.swift + WalletConnect + SwiftUI**| • **Swift**: linguagem oficial iOS.<br>• **web3.swift**: cliente Ethereum para Swift.<br>• **WalletConnect**: bridge.<br>• **SwiftUI**: UI declarativa Apple.                                                                    | 8.0  |
+| **Capacitor (Ionic) + web3.js/ethers.js + WalletConnect + Ionic UI**| • **Capacitor**: runtime híbrido Ionic.<br>• **web3.js** / **ethers.js**: clientes EVM.<br>• **WalletConnect**: protocolo de conexão.<br>• **Ionic UI**: componentes mobile prontos.                                               | 7.5  |
+| **Xamarin (C#) + Nethereum + WalletConnect + Xamarin.Forms**| • **Xamarin**: framework C#/.NET para mobile.<br>• **Nethereum**: biblioteca .NET para Ethereum.<br>• **WalletConnect**: plugin.<br>• **Xamarin.Forms**: UI cross‑platform.                                                    | 7.0  |
+| **PWA + web3modal + ethers.js + Service Workers**| • **PWA**: app web instalável.<br>• **web3modal**: biblioteca para integrar wallets (Metamask, WalletConnect etc.).<br>• **ethers.js**: cliente EVM.<br>• **Service Workers**: notificações push e offline.                      | 7.0  |
+| **Unity + WebGL + web3.unity SDK + WalletConnect**| • **Unity**: engine para apps/games.<br>• **web3.unity SDK**: integração blockchain.<br>• **WalletConnect**: bridge.<br> Ideal para gamificação ou AR/VR.                                                                             | 6.5  |
+
+> **Como votar**: basta comentar nesta issue com o número do conjunto de tecnologias que você prefere. Exemplos:  
+> - “Eu voto em **1** (React Native + ethers.js + WalletConnect)”  
+> - “Minha escolha é **2** (Flutter + web3dart + WalletConnect + Firebase)”
 
 ---
 
@@ -70,8 +91,8 @@ Mais informações em breve.
 
 Para parcerias, contribuições ou dúvidas, entre em contato via:
 
-- 🌐 [Site Oficial do Mundo Digital](https://asppibra.org/)
-- 📩 contato@asppibra.org
+- 🌐 [Site Oficial do Mundo Digital](https://asppibra.org/)  
+- 📩 contato@asppibra.org  
 - 💬 [Telegram Oficial](https://t.me/asppibra)
 
 ---

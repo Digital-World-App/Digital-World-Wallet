@@ -38,6 +38,36 @@ A seguir, apresentamos diferentes pilhas tecnológicas para o desenvolvimento da
 
 ---
 
+## 🎨 Kits de UI/UX Sugeridos
+
+Para cada stack tecnológica apresentada, selecionamos os kits de UI/UX mais recomendados para acelerar o desenvolvimento da interface da wallet:
+
+### React Native + ethers.js + WalletConnect
+
+- 🔹 [React Native Paper](https://callstack.github.io/react-native-paper/) — Componentes baseados no Material Design  
+- 🔹 [NativeBase](https://nativebase.io/) — Componentes cross‑platform com fácil customização  
+- 🔹 [React Native Elements](https://reactnativeelements.com/) — UI moderna e pronta para produção  
+- 🔹 [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) — Sistema temático com suporte a dark/light mode  
+- 🔹 [Dripsy](https://dripsy.xyz/) — Design system responsivo com Styled System
+
+### Flutter + web3dart + WalletConnect + Firebase
+
+- 🔸 [Flutter Material Components](https://flutter.dev/docs/development/ui/widgets/material) — Widgets oficiais da Google  
+- 🔸 [Flutter Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino) — UI estilo iOS nativo  
+- 🔸 [GetWidget](https://www.getwidget.dev/) — Biblioteca com +1000 widgets prontos  
+- 🔸 [Flutter UI Kit (GitHub)](https://github.com/iampawan/Flutter-UI-Kit) — Layouts e templates prontos  
+- 🔸 [VelocityX](https://velocityx.dev/) — Utilitário inspirado no Tailwind CSS
+
+### Native Android (Kotlin) + web3j + WalletConnect + Jetpack Compose
+
+- ⚫ [Jetpack Compose Material](https://developer.android.com/jetpack/compose/material) — Componentes oficiais Material Design  
+- ⚫ [Accompanist](https://google.github.io/accompanist/) — Extensões úteis para Compose  
+- ⚫ [Compose Destinations](https://github.com/raamcosta/compose-destinations) — Navegação segura e escalável  
+- ⚫ [Compose UI Kit by Smartto](https://github.com/SmarttoMobile/compose-ui-kit) — Templates empresariais modernos  
+- ⚫ [Material Components Android](https://github.com/material-components/material-components-android) — Biblioteca oficial XML/Compose híbrido
+
+---
+
 ## 📚 Referências Utilizadas
 
 A arquitetura e o design da **Mundo Digital Wallet** foram inspirados em soluções já consolidadas no mercado, como:

@@ -35,8 +35,6 @@ A seguir, apresentamos diferentes pilhas tecnológicas para o desenvolvimento da
 | **React Native + ethers.js + WalletConnect**| • **React Native**: framework JavaScript/TypeScript para apps iOS/Android.<br>• **ethers.js**: biblioteca leve para interagir com Ethereum e EVMs.<br>• **WalletConnect**: protocolo para conectar dApps via QR/deep link.              | 9.0  |
 | **Flutter + web3dart + WalletConnect + Firebase**| • **Flutter**: SDK Google em Dart, UI nativa de alta performance.<br>• **web3dart**: cliente Ethereum para Dart.<br>• **WalletConnect**: bridge para dApps.<br>• **Firebase**: backend para auth, notificações e analytics.         | 8.5  |
 | **Native Android (Kotlin) + web3j + WalletConnect + Jetpack Compose**| • **Kotlin**: linguagem oficial Android.<br>• **web3j**: biblioteca Java para Ethereum.<br>• **WalletConnect**: integração dApp.<br>• **Jetpack Compose**: UI declarativa moderna Android.                                    | 8.0  |
-| **Native iOS (Swift) + web3.swift + WalletConnect + SwiftUI**| • **Swift**: linguagem oficial iOS.<br>• **web3.swift**: cliente Ethereum para Swift.<br>• **WalletConnect**: bridge.<br>• **SwiftUI**: UI declarativa Apple.                                                                    | 8.0  |
-
 
 ---
 

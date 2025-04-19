@@ -1,0 +1,14 @@
+digital-world-wallet/
+├── app/
+├── assets/
+├── components/
+├── constants/
+├── hooks/
+├── scripts/
+├── app.json
+├── expo-env.d.ts
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.json

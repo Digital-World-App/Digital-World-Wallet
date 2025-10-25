@@ -1,4 +1,4 @@
-import ExploreScreen from '../../../features/explore/index';
+import ExploreScreen from '@/features/explore';
 
 export default function Explore() {
   return <ExploreScreen />;

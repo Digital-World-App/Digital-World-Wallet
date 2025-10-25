@@ -1,5 +1,5 @@
-import HomeScreen from '../../../features/home/index';
+import HomeScreen from '@/features/home';
 
-export default function Index() {
+export default function Home() {
   return <HomeScreen />;
 }

@@ -1,197 +1,75 @@
-# 🪙 Mundo Digital Wallet  (Digital-World-Wallet)
+# 🪙 Mundo Digital Wallet (Digital-World-Wallet)
 
-**Mundo Digital Wallet** é a carteira cripto nativa do ecossistema **Mundo Digital**, desenvolvida com foco em segurança, usabilidade e integração com tecnologias descentralizadas (DeFi, NFTs e tokenização de ativos). Inspirada nas melhores carteiras do mercado, nossa solução oferece um ambiente seguro e fácil de usar para gerenciar ativos digitais.
-
----
-
-## 🚀 Visão Geral
-
-A **Mundo Digital Wallet** foi concebida para oferecer:
-- Suporte a múltiplos tokens e ativos digitais.  
-- Integração com plataformas DeFi e contratos inteligentes.  
-- Facilidade de uso para iniciantes e robustez para usuários avançados.  
-- Código aberto para máxima transparência e auditabilidade.
+**Mundo Digital Wallet** é a carteira cripto nativa do ecossistema **Mundo Digital**, desenvolvida com foco em segurança, usabilidade e integração com tecnologias descentralizadas (DeFi, NFTs e tokenização de ativos). Inspirada nas melhores carteiras do mercado, nossa solução se destaca pela sua arquitetura moderna e escalável.
 
 ---
 
-## 📌 Funcionalidades Principais
+## ✨ Tecnologias Utilizadas
 
-- Carteira não custodial (chaves privadas 100% do usuário)  
-- Suporte a tokens ERC-20 e BEP-20  
-- Compatível com NFTs (ERC-721 / ERC-1155)  
-- Login com carteira descentralizada  
-- Envio e recebimento de criptomoedas  
-- Interface leve e intuitiva  
-- Integração futura com o token $ASPPBR da ASPPIBRA-DAO  
+Este projeto foi construído utilizando o que há de mais moderno no ecossistema de desenvolvimento mobile com React Native:
 
----
-
-## 🧰 Tecnologias Sugeridas (para votação)
-
-A seguir, apresentamos diferentes pilhas tecnológicas para o desenvolvimento da wallet mobile, pensando na integração com o seu aplicativo web. Cada conjunto vem acompanhado de uma breve descrição e nota (1–10) para orientar a votação da comunidade.
-
-| Conjunto                                    | Descrição                                                                                                                                                                                                                               | Nota |
-|---------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------|
-| **React Native + ethers.js + WalletConnect**| • **React Native**: framework JavaScript/TypeScript para apps iOS/Android.<br>• **ethers.js**: biblioteca leve para interagir com Ethereum e EVMs.<br>• **WalletConnect**: protocolo para conectar dApps via QR/deep link.              | 9.0  |
-| **Flutter + web3dart + WalletConnect + Firebase**| • **Flutter**: SDK Google em Dart, UI nativa de alta performance.<br>• **web3dart**: cliente Ethereum para Dart.<br>• **WalletConnect**: bridge para dApps.<br>• **Firebase**: backend para auth, notificações e analytics.         | 8.5  |
-| **Native Android (Kotlin) + web3j + WalletConnect + Jetpack Compose**| • **Kotlin**: linguagem oficial Android.<br>• **web3j**: biblioteca Java para Ethereum.<br>• **WalletConnect**: integração dApp.<br>• **Jetpack Compose**: UI declarativa moderna Android.                                    | 8.0  |
+*   **React Native:** Framework para criação de aplicativos nativos com JavaScript e React.
+*   **Expo:** Plataforma e conjunto de ferramentas que simplificam o desenvolvimento, o build e a publicação de aplicações React Native.
+*   **Expo Router:** Sistema de roteamento baseado em arquivos que torna a navegação entre telas mais simples e organizada.
+*   **TypeScript:** Superset do JavaScript que adiciona tipagem estática, aumentando a segurança e a manutenibilidade do código.
 
 ---
 
-## 🎨 Kits de UI/UX Sugeridos
-
-Para cada stack tecnológica apresentada, selecionamos os kits de UI/UX mais recomendados para acelerar o desenvolvimento da interface da wallet:
-
-### React Native + ethers.js + WalletConnect
-
-- 🔹 [React Native Paper](https://callstack.github.io/react-native-paper/) — Componentes baseados no Material Design  
-- 🔹 [NativeBase](https://nativebase.io/) — Componentes cross‑platform com fácil customização  
-- 🔹 [React Native Elements](https://reactnativeelements.com/) — UI moderna e pronta para produção  
-- 🔹 [UI Kitten](https://akveo.github.io/react-native-ui-kitten/) — Sistema temático com suporte a dark/light mode  
-- 🔹 [Dripsy](https://dripsy.xyz/) — Design system responsivo com Styled System
-
-### Flutter + web3dart + WalletConnect + Firebase
-
-- 🔸 [Flutter Material Components](https://flutter.dev/docs/development/ui/widgets/material) — Widgets oficiais da Google  
-- 🔸 [Flutter Cupertino](https://flutter.dev/docs/development/ui/widgets/cupertino) — UI estilo iOS nativo  
-- 🔸 [GetWidget](https://www.getwidget.dev/) — Biblioteca com +1000 widgets prontos  
-- 🔸 [Flutter UI Kit (GitHub)](https://github.com/iampawan/Flutter-UI-Kit) — Layouts e templates prontos  
-- 🔸 [VelocityX](https://velocityx.dev/) — Utilitário inspirado no Tailwind CSS
-
-### Native Android (Kotlin) + web3j + WalletConnect + Jetpack Compose
-
-- ⚫ [Jetpack Compose Material](https://developer.android.com/jetpack/compose/material) — Componentes oficiais Material Design  
-- ⚫ [Accompanist](https://google.github.io/accompanist/) — Extensões úteis para Compose  
-- ⚫ [Compose Destinations](https://github.com/raamcosta/compose-destinations) — Navegação segura e escalável  
-- ⚫ [Compose UI Kit by Smartto](https://github.com/SmarttoMobile/compose-ui-kit) — Templates empresariais modernos  
-- ⚫ [Material Components Android](https://github.com/material-components/material-components-android) — Biblioteca oficial XML/Compose híbrido
-
----
-
-## 📚 Referências Utilizadas
-
-A arquitetura e o design da **Mundo Digital Wallet** foram inspirados em soluções já consolidadas no mercado, como:
-
-- **Electrum**: Uma carteira Bitcoin leve e segura, com recursos avançados  
-  🔗 [Site Oficial](https://electrum.org/)  
-  💻 [Repositório GitHub](https://github.com/spesmilo/electrum)
-
-- **AlphaWallet**: Carteira Ethereum com foco em tokens e NFTs  
-  🔗 [Site Oficial](https://alphawallet.com/)  
-  💻 [Repositório GitHub](https://github.com/AlphaWallet/alpha-wallet-android)
-
-- **MyEtherWallet (MEW)**: Interface de código aberto para Ethereum  
-  🔗 [Site Oficial](https://www.myetherwallet.com/)  
-  💻 [Repositório GitHub](https://github.com/MyEtherWallet/MyEtherWallet)
-
-- **BitPay Wallet**: Suporte a múltiplas carteiras Bitcoin e segurança robusta  
-  🔗 [Site Oficial](https://www.bitpay.com/wallet)  
-  💻 [Repositório GitHub](https://github.com/bitpay/wallet)
-
-- **Trust Wallet**: Uma das carteiras mais populares e versáteis do mercado  
-  🔗 [Site Oficial](https://trustwallet.com/pt-PT)  
-  💻 [Repositório GitHub](https://github.com/trustwallet)
-
----
-
-## 🛠️ Em Desenvolvimento
-
-Este projeto está em estágio inicial. As contribuições são bem-vindas!  
-Caso deseje participar, abra uma *issue* ou envie um *pull request* com melhorias.
-
----
-
-## 📄 Licença
-
-Este projeto será disponibilizado sob uma licença de código aberto.  
-Mais informações em breve.
-
----
-
-## 🤝 Contato
-
-Para parcerias, contribuições ou dúvidas, entre em contato via:
-
-- 🌐 [Site Oficial do Mundo Digital](https://asppibra.org/)  
-- 📩 contato@asppibra.org  
-- 💬 [Telegram Oficial](https://t.me/asppibra)
-
----
-
-Desenvolvido com 💛 pela [ASPPIBRA-DAO](https://asppibra.org/)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-> Edited for use in IDX on 07/09/12
-
-# Welcome to your Expo app 👋
-
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
-
-## Get started
-
-#### Android
-
-Android previews are defined as a `workspace.onStart` hook and started as a vscode task when the workspace is opened/started.
-
-Note, if you can't find the task, either:
-- Rebuild the environment (using command palette: `IDX: Rebuild Environment`), or
-- Run `npm run android -- --tunnel` command manually run android and see the output in your terminal. The device should pick up this new command and switch to start displaying the output from it.
-
-In the output of this command/task, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You'll also find options to open the app's developer menu, reload the app, and more.
-
-#### Web
-
-Web previews will be started and managred automatically. Use the toolbar to manually refresh.
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+## 🚀 Arquitetura do Projeto
+
+A estrutura do projeto foi refatorada para seguir o padrão **Feature-Based Architecture**, que promove escalabilidade, organização e manutenibilidade. A organização dos diretórios ficou assim:
+
+```
+/digital-world-wallet
+├── src/
+│   ├── app/           # Configuração de rotas e layouts do Expo Router
+│   ├── assets/        # Imagens, fontes e outros arquivos estáticos
+│   ├── components/    # Componentes de UI reutilizáveis (botões, inputs, etc.)
+│   ├── constants/     # Constantes globais (cores, temas)
+│   ├── features/      # O coração da aplicação, organizado por funcionalidades
+│   │   ├── home/      # Funcionalidade da tela inicial
+│   │   ├── explore/   # Funcionalidade da tela de exploração
+│   │   └── ...        # Outras funcionalidades (ex: wallet, auth)
+│   └── hooks/         # Hooks customizados e compartilhados
+├── babel.config.js    # Configuração do Babel
+├── package.json       # Dependências e scripts do projeto
+└── tsconfig.json      # Configuração do TypeScript
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Este modelo nos permite trabalhar em diferentes funcionalidades de forma isolada, facilitando a colaboração e o crescimento do aplicativo.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🏁 Como Começar
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Para rodar o projeto localmente, siga os passos abaixo:
 
-## Join the community
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/seu-usuario/digital-world-wallet.git
+    ```
 
-Join our community of developers creating universal apps.
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+3.  **Execute o projeto:**
+    ```bash
+    npm start
+    ```
+    Isso iniciará o Metro Bundler do Expo. Você poderá então abrir o aplicativo em um emulador iOS/Android ou escanear o QR code com o aplicativo Expo Go no seu celular.
+
+---
+
+## 🔮 Próximos Passos e Melhorias
+
+Para garantir que a **Mundo Digital Wallet** se torne uma aplicação robusta e confiável, os próximos passos planejados são:
+
+*   **Gerenciamento de Estado:** À medida que a aplicação crescer, será necessário um gerenciamento de estado mais sofisticado. Planejamos adotar uma biblioteca como **Zustand** (para uma solução leve) ou **Redux Toolkit** (para um controle mais robusto).
+
+*   **Sistema de Design (Design System):** Criar um sistema de design coeso, com uma paleta de cores definida, uma escala de tipografia e componentes de UI reutilizáveis para garantir consistência visual em todo o aplicativo.
+
+*   **Aumentar a Cobertura de Testes:** Utilizando o **Jest**, que já está configurado, vamos criar uma suíte de testes abrangente para garantir a confiabilidade de todas as funcionalidades, especialmente as operações críticas da carteira.
+
+*   **Experiência do Usuário (UX):** Focar em fornecer feedbacks claros para todas as ações do usuário (carregamentos, sucesso, erro) e garantir que o aplicativo seja acessível a todos, seguindo as melhores práticas de acessibilidade (A11y).
